@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<p>
+  {{#if isWeekend}}
+    Yes!
+  {{else}}
+    No, not yet.
+  {{/if}}
+</p>
+
+<h2>Week days</h2>
+<p>The week days are:</p>
+<ul>
+  {{#each weekdays}}
+    <li>
+      {{this}}
+    </li>
+  {{/each}}
+</ul>
